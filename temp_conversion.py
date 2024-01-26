@@ -8,16 +8,7 @@ def temp_conversion(t_degC):
     return (str(temp_out)+" K")
 
 
-def main():
-    t_degC = float(input("Type a temperature in Celsius to convert to Kelvin: "))
-    print(temp_conversion(t_degC))
-
-if __name__ == "__main__":
-    main()
-
-
-
-
-
-
+t_degC = float(input("Type a temperature in Celsius to convert to Kelvin: "))
+output = temp_conversion(t_degC)
+print(output)
     
